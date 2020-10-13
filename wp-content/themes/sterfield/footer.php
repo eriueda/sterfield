@@ -17,14 +17,12 @@
                 <div class="menu heightLine">
                     <h4>Message</h4>
                     <ul><li class="navi01"><a href="<?php bloginfo('url'); ?>/message/#menu01">企業理念</a></li>
-<li class="navi02"><a href="<?php bloginfo('url'); ?>/message/#menu02">代表挨拶</a>
-</li><li class="navi03"><a href="<?php bloginfo('url'); ?>/message/#menu03">役員紹介</a></li>
+                      <li class="navi02"><a href="<?php bloginfo('url'); ?>/message/#menu02">代表挨拶</a></li><li class="navi03"><a href="<?php bloginfo('url'); ?>/message/#menu03">役員紹介</a></li>
                     </ul>
                 </div>
                 <div class="menu heightLine">
                     <h4>Service</h4>
-                    <ul><li class="navi01"><a href="<?php bloginfo('url'); ?>/service/#menu01">EC事業</a></li>
-                    <li class="navi02"><a href="<?php bloginfo('url'); ?>/service/#menu02">メディア事業</a></li>
+                    <ul><li class="navi01"><a href="<?php bloginfo('url'); ?>/service/#menu01">EC事業</a></li><li class="navi02"><a href="<?php bloginfo('url'); ?>/service/#menu02">メディア事業</a></li>
                     </ul>
                 </div>
                 <div class="menu heightLine">
@@ -37,17 +35,17 @@
                 </div>
                 <div class="menu heightLine">
                     <h4>Recruit</h4>
-                    <ul><li class="navi01"><a href="<?php bloginfo('url'); ?>/recruit/#menu01">デザイナー
-                    </a></li><li class="navi02"><a href="<?php bloginfo('url'); ?>/recruit/#menu02">ディレクター
-                    </a></li><li class="navi03"><a href="<?php bloginfo('url'); ?>/recruit/#menu03">プログラマー
-                    </a></li><li class="navi04"><a href="<?php bloginfo('url'); ?>/recruit/#menu04">営業
+                    <ul><li class="navi01"><a href="<?php bloginfo('url'); ?>/recruit/midcareer/#menu01">デザイナー
+                    </a></li><li class="navi02"><a href="<?php bloginfo('url'); ?>/recruit/midcareer/#menu02">ディレクター
+                    </a></li><li class="navi03"><a href="<?php bloginfo('url'); ?>/recruit/midcareer/#menu03">プログラマー
+                    </a></li><li class="navi04"><a href="<?php bloginfo('url'); ?>/recruit/midcareer/#menu04">営業
                     </a></li>
                     </ul>
                 </div>
                 <div class="menu heightLine">
                     <h4>News</h4>
-                    <ul><li class="navi01"><a href="<?php bloginfo('url'); ?>/news/news/">お知らせ
-                    </a></li><li class="navi02"><a href="<?php bloginfo('url'); ?>/news/release/">リリース
+                    <ul><li class="navi01"><a href="<?php bloginfo('url'); ?>/info/">お知らせ
+                    </a></li><li class="navi02"><a href="<?php bloginfo('url'); ?>/info/">リリース
                     </a></li>
                     </ul>
                 </div>

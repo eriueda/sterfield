@@ -763,6 +763,7 @@ body
 }
 .info__right {
 	float: right;
+  padding-bottom: 30px;
 }
 .contact_form
 {
@@ -846,7 +847,7 @@ body
 
 .copyright
 {
-	text-align: right;
+	text-align: center;
 	color: #fff;
 }
 .breadcrumbs{

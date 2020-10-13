@@ -574,7 +574,7 @@ body
 
 .copyright
 {
-	text-align: right;
+	text-align: center;
 	color: #fff;
 }
 .breadcrumbs{
@@ -596,6 +596,11 @@ body
 .breadcrumbs a {
 	line-height:32px;
 	text-decoration:none;
+}
+.archive.post-info-archive.current-item {
+  width: auto;
+  float: none;
+  margin-left: 0;
 }
 .wpcf7-validation-errors {
 	color:#fff;

@@ -207,8 +207,7 @@ $(function () {
                 <div class="menu">
                     <h4>Service</h4>
                     <ul><li class="navi01"><a href="<?php bloginfo('url'); ?>/service/#menu01">EC事業</a></li>
-                    <li class="navi02"><a href="<?php bloginfo('url'); ?>/service/#menu02">受託開発事業</a></li><li class="navi03"><a href="<?php bloginfo('url'); ?>/service/#menu03">自社サービス事業
-                    </a></li>
+                    <li class="navi02"><a href="<?php bloginfo('url'); ?>/service/#menu02">メディア事業</a></li>
                     </ul>
                 </div>
                 <div class="menu">
@@ -244,7 +243,7 @@ $(function () {
                 </div>
                 <div class="menu">
                     <h4>Media</h4>
-                    <ul><li class="navi01"><a href="http://launchcart.jp/" target="_blank">越境ECカート「LaunchCart」</a></li><li class="navi03"><a href="https://catseye.jp/" target="_blank">カラコン通販「Cat'sEye」</a></li>
+                    <ul><li class="navi01"><a href="http://launchcart.jp/" target="_blank">越境ECカート「LaunchCart」</a></li>
 <li class="navi04"><a href="http://compe.sterfield.jp/" target="_blank">コンペのポータル「コンペナビ」</a></li>
                     </ul>
                 </div>

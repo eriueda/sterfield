@@ -24,7 +24,7 @@
                 <div class="menu heightLine">
                     <h4>Service</h4>
                     <ul><li class="navi01"><a href="<?php bloginfo('url'); ?>/service/#menu01">EC事業</a></li>
-                    <li class="navi02"><a href="<?php bloginfo('url'); ?>/service/#menu02">メディア事業</a></li>
+                    <li class="navi02"><a href="<?php bloginfo('url'); ?>/service/#menu02">メディア事業</a></li>
                     </ul>
                 </div>
                 <div class="menu heightLine">
@@ -37,10 +37,10 @@
                 </div>
                 <div class="menu heightLine">
                     <h4>Recruit</h4>
-                    <ul><li class="navi01"><a href="<?php bloginfo('url'); ?>/recruit/#menu01">デザイナー
-                    </a></li><li class="navi02"><a href="<?php bloginfo('url'); ?>/recruit/#menu02">ディレクター
-                    </a></li><li class="navi03"><a href="<?php bloginfo('url'); ?>/recruit/#menu03">プログラマー
-                    </a></li><li class="navi04"><a href="<?php bloginfo('url'); ?>/recruit/#menu04">営業
+                    <ul><li class="navi01"><a href="<?php bloginfo('url'); ?>/recruit/midcareer/#menu01">デザイナー
+                    </a></li><li class="navi02"><a href="<?php bloginfo('url'); ?>/recruit/midcareer/#menu02">ディレクター
+                    </a></li><li class="navi03"><a href="<?php bloginfo('url'); ?>/recruit/midcareer/#menu03">プログラマー
+                    </a></li><li class="navi04"><a href="<?php bloginfo('url'); ?>/recruit/midcareer/#menu04">営業
                     </a></li>
                     </ul>
                 </div>
@@ -60,7 +60,7 @@
                 </div>
                 <div class="menu heightLine">
                     <h4>Media</h4>
-                    <ul><li class="navi01"><a href="http://launchcart.jp/" target="_blank">越境ECカート「LaunchCart」</a></li><li class="navi03"><a href="https://catseye.jp/" target="_blank">カラコン通販「Cat'sEye」</a></li>
+					<ul><li class="navi01"><a href="http://launchcart.jp/" target="_blank">越境ECカート「LaunchCart」</a></li>
 <li class="navi04"><a href="http://compe.sterfield.jp/" target="_blank">コンペのポータル「コンペナビ」</a></li>
                     </ul>
                 </div>
