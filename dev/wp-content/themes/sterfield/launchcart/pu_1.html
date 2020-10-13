@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <title>次世代ECサイトパッケージ　Launch Cart</title>
+    <meta name="description" content="">
+    <meta name="keywords" content=",">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--[if IE]> 
+	<script type="text/javascript" src="/launchcart/js/html5.js"></script>
+	<![endif]-->	
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/launchcart/js/IE9.js"></script>
+    <script type="text/javascript"　src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]-->
+
+<style>
+
+*
+{
+	padding: 0;
+	margin: 0;
+	background-repeat: no-repeat;
+}
+body
+{
+	width: 400px;
+    font-size: 9pt;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #555555;
+	padding: 10px;
+}
+
+dl
+{
+	width: 400px;
+	clear: both;
+	overflow: hidden;
+}
+dl.a
+{
+	margin-bottom: 20px;
+}
+dl dt
+{
+	width: 30px;
+	float: left;
+	font-size: 20px;
+}
+dl.q dt
+{
+	color: #F90;
+}
+dl.a dt
+{
+	color: #6C3;
+}
+dl dd
+{
+	width: 370px;
+	float: left;
+}
+dl.q dd
+{
+	font-size: 120%;
+	font-weight: bold;
+}
+
+span
+{
+	color: #0CF;
+	cursor: pointer;
+	text-decoration: underline;
+}
+span:hover
+{
+	text-decoration: none;
+}
+
+</style>
+
+</head>
+<body>
+	<dl class="q">
+    	<dt>Q</dt>
+        <dd>他のECサイトとの違いはなんですか？</dd>
+    </dl>
+	<dl class="a">
+    	<dt>A</dt>
+        <dd>お客様好みに機能をカスタマイズすることができる点です。機能の取捨選択や、今まで変更できなかった部分を使いやすいように設定することが可能になっています。</dd>
+    </dl>
+
+	<dl class="q">
+    	<dt>Q</dt>
+        <dd>本当に無料で作成できますか？</dd>
+    </dl>
+	<dl class="a">
+    	<dt>A</dt>
+        <dd>はい、無料で作成可能です。</dd>
+    </dl>
+
+	<dl class="q">
+    	<dt>Q</dt>
+        <dd>他の費用はかからないの？</dd>
+    </dl>
+	<dl class="a">
+    	<dt>A</dt>
+        <dd>お客様が決済代行会社とご契約していただいく費用がかかります。詳しい金額は<span onClick="opener.location.href='/launchcart-test#menu6_target'">こちら</span>をご覧ください</dd>
+    </dl>
+
+	<dl class="q">
+    	<dt>Q</dt>
+        <dd>サーバー費用はかかりますか？</dd>
+    </dl>
+	<dl class="a">
+    	<dt>A</dt>
+        <dd>いただいておりません。</dd>
+    </dl>
+
+	<dl class="q">
+    	<dt>Q</dt>
+        <dd>なぜ無料作成できるのですか？</dd>
+    </dl>
+	<dl class="a">
+    	<dt>A</dt>
+        <dd>弊社は決済に強みを持っていますので、作成を無料で行うことができます。</dd>
+    </dl>
+
+	<dl class="q">
+    	<dt>Q</dt>
+        <dd>決済費用はいくらですか？</dd>
+    </dl>
+	<dl class="a">
+    	<dt>A</dt>
+        <dd>クレジットカードのみですと初回は審査・登録料で30,000円となります。月額10,000円です。商品決済毎に決済手数料がかかります。詳しい金額は<span onClick="opener.location.href='/launchcart-test#menu6_target'">こちら</span>をご覧ください。</dd>
+    </dl>
+
+	<dl class="q">
+    	<dt>Q</dt>
+        <dd>どんな機能がありますか？</dd>
+    </dl>
+	<dl class="a">
+    	<dt>A</dt>
+        <dd>お客様のご要望に沿った形でお伺いさせていただきます。機能については受注管理システムからスマホサイト作成まで幅広くとりそろえております。詳しくは<span onClick="opener.location.href='/launchcart-test#menu6_target'">こちら</span>をご覧ください。</dd>
+    </dl>
+
+	<dl class="q">
+    	<dt>Q</dt>
+        <dd>機能を追加するのに費用はかかりますか？</dd>
+    </dl>
+	<dl class="a">
+    	<dt>A</dt>
+        <dd>かかりません。お渡しする前にお客様のご要望をお伺いし、必要な機能設定をすることが可能です。</dd>
+    </dl>
+
+	<dl class="q">
+    	<dt>Q</dt>
+        <dd>初期設定以降に機能を追加することはできまか？</dd>
+    </dl>
+	<dl class="a">
+    	<dt>A</dt>
+        <dd>可能です。その際は別途費用がかかる場合もあります。ご相談ください。</dd>
+    </dl>
+
+	<dl class="q">
+    	<dt>Q</dt>
+        <dd>決済方法はどんな種類がありますか？</dd>
+    </dl>
+	<dl class="a">
+    	<dt>A</dt>
+        <dd>クレジットカード・コンビニ支払い・電子マネーなどがあります。詳しい決済方法は<span onClick="opener.location.href='/launchcart-test#menu6_target'">こちら</span>をご覧ください。</dd>
+    </dl>
+
+	<dl class="q">
+    	<dt>Q</dt>
+        <dd>サーバーの仕様は？</dd>
+    </dl>
+	<dl class="a">
+    	<dt>A</dt>
+        <dd></dd>
+    </dl>
+
+	<dl class="q">
+    	<dt>Q</dt>
+        <dd>セキュリティはどのような対策を行っていますか？</dd>
+    </dl>
+	<dl class="a">
+    	<dt>A</dt>
+        <dd></dd>
+    </dl>
+</body>
+</html>

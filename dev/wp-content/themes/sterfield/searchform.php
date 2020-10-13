@@ -1,0 +1,1 @@
+<form method="get" id="searchform" action="<?php bloginfo('url'); ?>/"><input type="text" class="search"  value="<?php the_search_query(); ?>" name="s" id="s" size="20"/>　<input type="submit" value="検索"></form>
