@@ -7,15 +7,15 @@ Template Name: ブログ2020
 <main class="l-blogMain">
   <div class="l-blogHeader">
     <h1 class="blogTitle">
-      <span>Blog</span>
+    <?php if ( is_object_in_term($post->ID, 'item') ): ?><span>News</span><?php else: ?><span>Blog</span><?php endif; ?>
       <!-- <img src="https://sterfield.co.jp/wp-content/themes/sterfield/images/logo_blog.svg"> -->
     </h1>
     <div class="blogSearch">
-      <?php get_template_part('searchform2020'); ?>
+    <?php get_template_part('searchform2020'); ?>
     </div>
   </div>
 
-
+  <?php if ( !is_object_in_term($post->ID, 'item') ): ?>
   <div class="l-blogCategory">
     <ul class="blogCategory__list">
       <li class="blogCategory__item all current"><a href="/dev/blog/"><span>すべて</span></a></li>
@@ -26,6 +26,7 @@ Template Name: ブログ2020
       <li class="blogCategory__item other"><a href="/dev/other/"><span>その他</span></a></li>
     </ul>
   </div>
+  <?php endif; ?>
   <div class="l-blogBreadcrumbs">
     <div class="breadcrumbs-inner">
     <?php if(function_exists('bcn_display'))

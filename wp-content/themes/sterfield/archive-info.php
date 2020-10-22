@@ -3,22 +3,6 @@
         <h1>News</h1>   
     </div>
     <div id="contents" class="clearfix">
-    <div class="submenu">
-<?php 
-        if(is_tax()){
-                        $taxonomy_var = get_post_taxonomies($post->id); // ターム取得のためのタクソノミ
-        $terms_array = get_the_terms($post->id, $taxonomy_var); // スラグ取得のためのターム配列
-        $slug_var = $terms_array[0]->slug; // 配列からスラグ取得
-        }else{
-        $slug_var = "";
-        }
-        ?>
-                <ul class="<?php echo $slug_var; ?>">
-                    <li class="navi01"><a href="<?php get_bloginfo("url"); ?>/item/news/">お知らせ</a></li>
-                    <li class="navi02"><a href="<?php get_bloginfo("url"); ?>/item/release/">リリース</a></li>
-                    <li class="navi03"><a href="<?php get_bloginfo("url"); ?>/item/seminar/">セミナー</a></li>
-                </ul>
-            </div>
             <div class="breadcrumbs">
                 <div class="breadcrumbs-inner">
                 <?php if(function_exists('bcn_display'))

@@ -195,7 +195,7 @@ function my_custom_popular_posts_html_list( $mostpopular, $instance ) {
   foreach( $mostpopular as $p ) {
     $rank++;
     $thumb_id = get_post_thumbnail_id( $p->id );
-    $img = get_template_directory_uri() . '/wp-content/themes/sterfield/images/nothing.jpg';
+    $img = get_template_directory_uri() . '/images/nothing.jpg';
     if(has_post_thumbnail($p->id)) {
       $img = wp_get_attachment_image_src( $thumb_id, 'medium' );
 			$img = $img[0];

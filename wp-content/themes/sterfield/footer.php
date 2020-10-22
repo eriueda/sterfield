@@ -15,18 +15,20 @@
             <!-- フッターメニューここから -->
             <div class="foot_menu">
                 <div class="menu heightLine">
-                    <h4>Message</h4>
+                <h4><a href="<?php bloginfo('url'); ?>/Message/">Message</a></h4>
                     <ul><li class="navi01"><a href="<?php bloginfo('url'); ?>/message/#menu01">企業理念</a></li>
-                      <li class="navi02"><a href="<?php bloginfo('url'); ?>/message/#menu02">代表挨拶</a></li><li class="navi03"><a href="<?php bloginfo('url'); ?>/message/#menu03">役員紹介</a></li>
+                        <li class="navi02"><a href="<?php bloginfo('url'); ?>/message/#menu02">代表挨拶</a></li>
+                        <li class="navi03"><a href="<?php bloginfo('url'); ?>/message/#menu03">役員紹介</a></li>
                     </ul>
                 </div>
                 <div class="menu heightLine">
-                    <h4>Service</h4>
-                    <ul><li class="navi01"><a href="<?php bloginfo('url'); ?>/service/#menu01">EC事業</a></li><li class="navi02"><a href="<?php bloginfo('url'); ?>/service/#menu02">メディア事業</a></li>
+                <h4><a href="<?php bloginfo('url'); ?>/service/">Service</a></h4>
+                    <ul><li class="navi01"><a href="<?php bloginfo('url'); ?>/service/#menu01">EC事業</a></li>
+                    <li class="navi02"><a href="<?php bloginfo('url'); ?>/service/#menu02">メディア事業</a></li>
                     </ul>
                 </div>
                 <div class="menu heightLine">
-                    <h4>About&nbsp;us</h4>
+                <h4><a href="<?php bloginfo('url'); ?>/aboutus/">About us</a></h4>
                     <ul><li class="navi01"><a href="<?php bloginfo('url'); ?>/aboutus/#menu01">会社概要
                     </a></li><li class="navi02"><a href="<?php bloginfo('url'); ?>/aboutus/#menu02">福利厚生・社内制度
                     </a></li><li class="navi03"><a href="<?php bloginfo('url'); ?>/aboutus/#menu03">アクセス
@@ -34,7 +36,7 @@
                     </ul>
                 </div>
                 <div class="menu heightLine">
-                    <h4>Recruit</h4>
+                    <h4><a href="<?php bloginfo('url'); ?>/recruit/">Recruit</a></h4>
                     <ul><li class="navi01"><a href="<?php bloginfo('url'); ?>/recruit/midcareer/#menu01">デザイナー
                     </a></li><li class="navi02"><a href="<?php bloginfo('url'); ?>/recruit/midcareer/#menu02">ディレクター
                     </a></li><li class="navi03"><a href="<?php bloginfo('url'); ?>/recruit/midcareer/#menu03">プログラマー
@@ -43,23 +45,24 @@
                     </ul>
                 </div>
                 <div class="menu heightLine">
-                    <h4>News</h4>
-                    <ul><li class="navi01"><a href="<?php bloginfo('url'); ?>/info/">お知らせ
-                    </a></li><li class="navi02"><a href="<?php bloginfo('url'); ?>/info/">リリース
+                <h4><a href="<?php bloginfo('url'); ?>/info/">News</a></h4>
+                    <ul><li class="navi01"><a href="<?php bloginfo('url'); ?>/item/news/">お知らせ
+                    </a></li><li class="navi02"><a href="<?php bloginfo('url'); ?>/item/release/">リリース
                     </a></li>
                     </ul>
                 </div>
                 <div class="menu heightLine">
-                    <h4>Blog</h4>
-                    <ul><li class="navi01"><a href="<?php bloginfo('url'); ?>/blog/product/">制作</a></li><li class="navi02"><a href="<?php bloginfo('url'); ?>/blog/development/">開発
+                <h4><a href="<?php bloginfo('url'); ?>/blog/">Blog</a></h4>
+                    <ul><li class="navi01"><a href="<?php bloginfo('url'); ?>/blog/product/">制作</a></li>
+                    <li class="navi02"><a href="<?php bloginfo('url'); ?>/blog/development/">開発
                     </a></li><li class="navi03"><a href="<?php bloginfo('url'); ?>/blog/ec/">EC</a></li>
-<li class="navi04"><a href="<?php bloginfo('url'); ?>/blog/global/">グローバル</a></li>
+                            <li class="navi04"><a href="<?php bloginfo('url'); ?>/blog/global/">グローバル</a></li>
                     </ul>
                 </div>
                 <div class="menu heightLine">
-                    <h4>Media</h4>
-					<ul><li class="navi01"><a href="http://launchcart.jp/" target="_blank">越境ECカート「LaunchCart」</a></li>
-<li class="navi04"><a href="http://compe.sterfield.jp/" target="_blank">コンペのポータル「コンペナビ」</a></li>
+                <h4>Media</h4>
+                    <ul><li class="navi01"><a href="http://launchcart.jp/" target="_blank">越境ECカート「LaunchCart」</a></li>
+                        <li class="navi04"><a href="http://compe.sterfield.jp/" target="_blank">コンペのポータル「コンペナビ」</a></li>
                     </ul>
                 </div>
 
@@ -75,6 +78,7 @@ function googleTranslateElementInit() {
 }
 
 </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<div class="logo"><a href="https://sterfield.co.jp/"><img style="background-color:#fafafa;border-radius:5px;padding:5px" src="https://sterfield.co.jp/wp-content/themes/sterfield/images/logo.png" alt=""></a></div>
                      <p>スターフィールド株式会社<br>
                 〒171-0033 東京都豊島区高田3丁目9−7<br>
                 TEL: 03-5956-9292 FAX: 03-5956-9293</p>
